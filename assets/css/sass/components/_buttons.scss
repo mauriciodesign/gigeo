@@ -1,0 +1,33 @@
+.button {
+
+    &__color {
+        border-radius: 0;
+        width: 90px;
+        color: $color-white;
+        margin-left: 8px;
+        background: $color-green;
+
+        &:hover {
+            background: $color-black;
+            color: $color-white;
+        }
+    }
+
+    &__color-red {
+        background: $color-red;
+    }
+}
+
+.navbar {
+
+    &__burger__icon {
+
+        font-size: 2.2rem;
+        color: $color-grey;
+    }
+
+    &__menu__icon {
+        color: $color-black;
+        font-size: $regular;
+    }
+}

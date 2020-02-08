@@ -1,0 +1,37 @@
+.card{
+    border: none;
+    &-img-top{
+        height: auto;
+    }
+    &-body{
+        padding: $regular 0;
+    }
+    &-title{
+        margin-bottom: 5px;
+    }
+    &-text{
+        color: $color-grey;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-img-top {
+        height: 127px;
+    }
+}
+@media (min-width: 768px) {
+    .card-img-top {
+        height: 174px;
+    }
+}
+@media (min-width: 992px) {
+    .card-img-top {
+        height: 111px;
+    }
+}
+@media (min-width: 1200px) {
+    .card-img-top {
+        height: 135px;
+    }
+}
+  

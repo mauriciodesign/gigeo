@@ -1,0 +1,23 @@
+/* Base Styles*/
+body{
+  font-family: $futura;
+}
+h1{
+  @include font($large, $regular-font);
+}
+
+h4{
+  margin: 0;
+  @include font($medium, $bold-font);
+}
+
+h5{
+  @include font($regular, $bold-font);
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+
